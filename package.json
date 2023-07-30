@@ -1,0 +1,21 @@
+{
+  "name": "nameify-api",
+  "version": "1.0.0",
+  "description": "Backend for Nameify",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Liao",
+  "license": "ISC",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "openai": "^3.3.0",
+    "serverless-http": "^3.2.0"
+  }
+}
